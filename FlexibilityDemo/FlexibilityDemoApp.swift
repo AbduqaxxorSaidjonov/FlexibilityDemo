@@ -1,0 +1,20 @@
+//
+//  FlexibilityDemoApp.swift
+//  FlexibilityDemo
+//
+//  Created by Abduqaxxor on 6/3/22.
+//
+
+import SwiftUI
+
+@main
+struct FlexibilityDemoApp: App {
+    let persistenceController = PersistenceController.shared
+
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+        }
+    }
+}
