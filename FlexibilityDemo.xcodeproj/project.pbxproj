@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		7657297827D4AFDC0012E4CA /* FlexibilityDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7657297727D4AFDC0012E4CA /* FlexibilityDemoApp.swift */; };
-		7657297A27D4AFDC0012E4CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7657297927D4AFDC0012E4CA /* ContentView.swift */; };
 		7657297C27D4AFDC0012E4CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7657297B27D4AFDC0012E4CA /* Assets.xcassets */; };
 		7657297F27D4AFDC0012E4CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7657297E27D4AFDC0012E4CA /* Preview Assets.xcassets */; };
 		7657298127D4AFDC0012E4CA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7657298027D4AFDC0012E4CA /* Persistence.swift */; };
 		7657298427D4AFDC0012E4CA /* FlexibilityDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7657298227D4AFDC0012E4CA /* FlexibilityDemo.xcdatamodeld */; };
+		7657298D27D4B02B0012E4CA /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7657298C27D4B02B0012E4CA /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7657297427D4AFDC0012E4CA /* FlexibilityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexibilityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7657297727D4AFDC0012E4CA /* FlexibilityDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibilityDemoApp.swift; sourceTree = "<group>"; };
-		7657297927D4AFDC0012E4CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7657297B27D4AFDC0012E4CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7657297E27D4AFDC0012E4CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7657298027D4AFDC0012E4CA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		7657298327D4AFDC0012E4CA /* FlexibilityDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlexibilityDemo.xcdatamodel; sourceTree = "<group>"; };
+		7657298C27D4B02B0012E4CA /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,9 @@
 		7657297627D4AFDC0012E4CA /* FlexibilityDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7657298A27D4AFEB0012E4CA /* apputils */,
 				7657297727D4AFDC0012E4CA /* FlexibilityDemoApp.swift */,
-				7657297927D4AFDC0012E4CA /* ContentView.swift */,
-				7657297B27D4AFDC0012E4CA /* Assets.xcassets */,
-				7657298027D4AFDC0012E4CA /* Persistence.swift */,
-				7657298227D4AFDC0012E4CA /* FlexibilityDemo.xcdatamodeld */,
+				7657298C27D4B02B0012E4CA /* HomeScreen.swift */,
 				7657297D27D4AFDC0012E4CA /* Preview Content */,
 			);
 			path = FlexibilityDemo;
@@ -71,6 +69,16 @@
 				7657297E27D4AFDC0012E4CA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7657298A27D4AFEB0012E4CA /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				7657297B27D4AFDC0012E4CA /* Assets.xcassets */,
+				7657298027D4AFDC0012E4CA /* Persistence.swift */,
+				7657298227D4AFDC0012E4CA /* FlexibilityDemo.xcdatamodeld */,
+			);
+			path = apputils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7657298D27D4B02B0012E4CA /* HomeScreen.swift in Sources */,
 				7657298127D4AFDC0012E4CA /* Persistence.swift in Sources */,
-				7657297A27D4AFDC0012E4CA /* ContentView.swift in Sources */,
 				7657298427D4AFDC0012E4CA /* FlexibilityDemo.xcdatamodeld in Sources */,
 				7657297827D4AFDC0012E4CA /* FlexibilityDemoApp.swift in Sources */,
 			);
